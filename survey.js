@@ -27,7 +27,7 @@ rl.question('What\'s your name? Nicknames are also acceptable: ', (answer1) => {
       
             rl.question('\nWhat is your superpower? In a few words, tell us what you are amazing at! ', (answer7) => {
               console.log(`\nAll Done!`)
-              console.log(`\nYour fun profile:\n${answer1} loves listening to ${answer3} while ${answer2}, devouring ${answer5} for ${answer4}, perfers ${answer6} over any other sport, and is amazing at ${answer7}!\n`)
+              console.log(`\nYour fun profile:\n${answer1} loves listening to ${answer3} while ${answer2}, devouring ${answer5} for ${answer4}, prefers ${answer6} over any other sport, and is amazing at ${answer7}!\n`)
         
               rl.close();
             });
